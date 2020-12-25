@@ -6,10 +6,11 @@ In this repository, I will do reverse engineering for the BQ27500EVM and the EV2
 
 ![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300_BQ27500.png)
 
-The [EV2300](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu159e.pdf) is a USB to SMBus converter and it has interface program ( Works only on Windows XP ), so I had an old computer laying around, I installed windows XP and had a tests over the EV3200 with this setup like below:
+The [EV2300](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu159e.pdf) is a USB to I²C/SMBus converter and it has interface program ( Works only on Windows XP ), so I had an old computer laying around, I installed windows XP and had a tests over the EV3200 with this setup like below:
 
-![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300%20Logic%20Analyzer%20Actual%20Setup.jpg?raw=true)
 
+
+![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300%20Setup.png?raw=true)
 
 
 Here is a screenshot for the software:
@@ -19,7 +20,7 @@ The program worked fine and communicated with the BQ27500 kit.
 
 Next, I will connect [(Saleae 8 Logic Analyzer)](https://usd.saleae.com/products/saleae-logic-8) inline with the I²C/SMBus and have a look while the program reading the data from the BQ27500EVM.
 
-![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/Actual%20Setup.jpg?raw=true)
+![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300%20Logic%20Analyzer%20Actual%20Setup.jpg?raw=true)
 
 The saved capture for Logic 1.2.18 program : [24 MHz, 480 M Samples [3].logicdata](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Logic%20Analyzer%20Data%20Capture/Reading%20BQ27500's%20RAM/24%20MHz%2C%20480%20M%20Samples%20%5B3%5D.logicdata), you could open it and enable the I²C analysis, for more data captures visit this folder [(Logic_Analyzer_Data_Capture)](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/tree/main/Logic_Analyzer_Data_Capture)
 
