@@ -40,6 +40,23 @@ I2C Frequency: 40KHz
 Technology Evaluation Module.
 * [sluu298.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu298.pdf) Quick Start Guide for bq27500/1EVM Kit.
 
+After Reading the Datasheet and verifying it with the captured data, I have written a code for NodeMCU ( Just for concept verification ) and this is the final setup:
+![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/NodeMCU%20Actual%20Setup.jpg)
+
+Connection:
+```
+NodeMCU's D1 Pin: SCL
+NodeMCU's D2 Pin: SDA
+** Connecting the GND together **
+```
+
+## The Code:
+* [ESP8266_BQ27500EVM.ino](https://raw.githubusercontent.com/rxtxinv/BQ27500EVM_Reverse_Engineering/main/NodeMCU%20Test%20Code%20(Arduino)/ESP8266_BQ27500EVM/ESP8266_BQ27500EVM.ino) NodeMCU Arduino Code ( Just for concept verification ).
+* STM32 Driver
+* Computer Software
+
+
+The Output Data Over The UART:
 ```
 Device Name: q27500
 Pack's Voltage: 4145 mV , 4.14 V
