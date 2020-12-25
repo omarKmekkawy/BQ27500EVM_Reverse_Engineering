@@ -6,7 +6,7 @@ In this repository, I will do reverse engineering for the BQ27500EVM and the EV2
 
 ![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300_BQ27500.png)
 
-The [EV2300](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu159e.pdf) is a USB to I²C/SMBus converter and it has interface program ( Works only on Windows XP ), so I had an old computer laying around, I installed windows XP and had a tests over the EV3200 with this setup like below:
+The [EV2300](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu159e.pdf) is a USB to I²C/SMBus converter and it has [interface program](https://raw.githubusercontent.com/rxtxinv/BQ27500EVM_Reverse_Engineering/main/Pictures/ComputerSoftware.bmp) ( Works only on Windows XP ), so I had an old computer laying around, I installed windows XP and had a tests over the EV3200 with this setup like below:
 
 
 
