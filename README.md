@@ -17,19 +17,19 @@ Here is a screenshot for the software:
 
 The program worked fine and communicated with the BQ27500 kit.
 
-Next, I will connect [(Saleae 8 Logic Analyzer)](https://usd.saleae.com/products/saleae-logic-8) inline with the I2C/SMBus and have a look while the program reading the data from the BQ27500EVM.
+Next, I will connect [(Saleae 8 Logic Analyzer)](https://usd.saleae.com/products/saleae-logic-8) inline with the I²C/SMBus and have a look while the program reading the data from the BQ27500EVM.
 
 ![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/Actual%20Setup.jpg?raw=true)
 
-The saved capture for Logic 1.2.18 program : [24 MHz, 480 M Samples [3].logicdata](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Logic%20Analyzer%20Data%20Capture/Reading%20BQ27500's%20RAM/24%20MHz%2C%20480%20M%20Samples%20%5B3%5D.logicdata), you could open it and enable the I2C analysis, for more data captures visit this folder [(Logic_Analyzer_Data_Capture)](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/tree/main/Logic_Analyzer_Data_Capture)
+The saved capture for Logic 1.2.18 program : [24 MHz, 480 M Samples [3].logicdata](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Logic%20Analyzer%20Data%20Capture/Reading%20BQ27500's%20RAM/24%20MHz%2C%20480%20M%20Samples%20%5B3%5D.logicdata), you could open it and enable the I²C analysis, for more data captures visit this folder [(Logic_Analyzer_Data_Capture)](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/tree/main/Logic_Analyzer_Data_Capture)
 
 Here is a screenshot for the Logic 1.2.18 program.
 ![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Logic_Analyzer_Data_Capture/Reading%20BQ27500's%20RAM/2020-12-25_5-27-51.png)
 
 From the reverse engineering we get this info:
 ```
-BQ27500 I2C Address: 0x55
-I2C Frequency: 40KHz
+BQ27500 I²C Address: 0x55
+I²C Frequency: 40KHz
 ```
 
 ## Datasheets & User manuals
