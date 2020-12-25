@@ -52,10 +52,6 @@ NodeMCU's D2 Pin: SDA
 
 ## The Code:
 * [ESP8266_BQ27500EVM.ino](https://raw.githubusercontent.com/rxtxinv/BQ27500EVM_Reverse_Engineering/main/NodeMCU%20Test%20Code%20(Arduino)/ESP8266_BQ27500EVM/ESP8266_BQ27500EVM.ino) NodeMCU Arduino Code ( Just for concept verification ).
-* STM32 Driver
-* Computer Software
-
-
 The Output Data Over The UART:
 ```
 Device Name: q27500
@@ -78,6 +74,9 @@ Average Power: 0 mW
 Time To Empty At Constant Power: -1 Minute/(s)
 Cycle Count: 1 Time/(s)
 ```
+
+* STM32 Driver
+* Computer Software
 
 
 ## Project History
