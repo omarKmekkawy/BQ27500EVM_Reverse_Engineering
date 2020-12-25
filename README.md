@@ -53,25 +53,26 @@ NodeMCU's D2 Pin: SDA
 
 ## The Code:
 * [ESP8266_BQ27500EVM.ino](https://raw.githubusercontent.com/rxtxinv/BQ27500EVM_Reverse_Engineering/main/NodeMCU%20Test%20Code%20(Arduino)/ESP8266_BQ27500EVM/ESP8266_BQ27500EVM.ino) NodeMCU Arduino Code ( Just for concept verification ).
+
 The Output Data Over The UART:
 ```
 Device Name: q27500
-Pack's Voltage: 4145 mV , 4.14 V
+Pack's Voltage: 4187 mV , 4.19 V
 Design Capacity: 2200 mAh
 State Of Charge: 100 %
 Nominal Available Capacity: 1000 mAh
 Nominal Available Capacity: 1000 mAh
 Remaining Capacity: 1000 mAh
 FullCharge Capacity: 1000 mAh
-Average Current: 0 mA
+Average Current: 100 mA
 Time To Empty: -1 Minute/(s)
-Time To Full: -1 Minute/(s)
-Standby Current: -1 mA
-Standby Time To Empty: -5536 Minute/(s)
+Time To Full: 151 Minute/(s)
+Standby Current: -8 mA
+Standby Time To Empty: 7500 Minute/(s)
 Max Load Current: -1219 mA
 Max Load Time To Empty: 49 mA
 Available Energy: 3792 mWh
-Average Power: 0 mW
+Average Power: 419 mW
 Time To Empty At Constant Power: -1 Minute/(s)
 Cycle Count: 1 Time/(s)
 ```
