@@ -82,6 +82,6 @@ Cycle Count: 1 Time/(s)
 
 
 ## Project History
-* 25/12/2020 -> Started the project and protocol reverse engineering ( DOne ).
-*
+* 24/12/2020 -> Started the project and protocol reverse engineering ( Done ).
+* 25/12/2020 -> Writing NodeMCU's code for ( Concept Verification ) ( Done ).
 *
