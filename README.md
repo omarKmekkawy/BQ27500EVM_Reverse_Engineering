@@ -10,6 +10,9 @@ The EV2300 is a USB to SMBus converter and it has interface program ( Works only
 
 ![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300%20Setup.png?raw=true)
 
+Here is a screenshot for the software:
+![alt text](https://raw.githubusercontent.com/rxtxinv/BQ27500EVM_Reverse_Engineering/main/Pictures/ComputerSoftware.bmp)
+
 The program worked fine and communicated with the BQ27500 kit.
 
 Next, I will connect [(Saleae 8 Logic Analyzer)](https://usd.saleae.com/products/saleae-logic-8) inline with the I2C/SMBus and have a look while the program reading the data from the BQ27500EVM.
@@ -26,11 +29,12 @@ BQ27500 I2C Address: 0x55
 ```
 
 ## Datasheets & User manuals
-* [slua448.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/slua448.pdf)
-* [slus914a.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/slus914a.pdf)
-* [sluu159e.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu159e.pdf)
-* [sluu287a.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu287a.pdf)
-* [sluu298.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu298.pdf)
+* [slua448.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/slua448.pdf) Quick Start Guide for bq2750x Family Gas Gauge.
+* [slus914a.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/slus914a.pdf) bq27500 System-Side Impedance Track Fuel Gauge Datasheet.
+* [sluu159e.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu159e.pdf) EV2300 EVM Interface Board User Manual.
+* [sluu287a.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu287a.pdf) bq2750xEVM System Side Single-Cell Impedance Track™
+Technology Evaluation Module.
+* [sluu298.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu298.pdf) Quick Start Guide for bq27500/1EVM Kit.
 
 ## Project History
 * 25/12/2020 -> Started the project and protocol reverse engineering
