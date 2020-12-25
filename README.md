@@ -8,7 +8,9 @@ In this repository, I will do reverse engineering for the BQ27500EVM and the EV2
 
 The [EV2300](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu159e.pdf) is a USB to SMBus converter and it has interface program ( Works only on Windows XP ), so I had an old computer laying around, I installed windows XP and had a tests over the EV3200 with this setup like below:
 
-![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300%20Setup.png?raw=true)
+![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/EV2300%20Logic%20Analyzer%20Actual%20Setup.jpg?raw=true)
+
+
 
 Here is a screenshot for the software:
 ![alt text](https://raw.githubusercontent.com/rxtxinv/BQ27500EVM_Reverse_Engineering/main/Pictures/ComputerSoftware.bmp)
@@ -38,7 +40,30 @@ I2C Frequency: 40KHz
 Technology Evaluation Module.
 * [sluu298.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu298.pdf) Quick Start Guide for bq27500/1EVM Kit.
 
+```
+Device Name: q27500
+Pack's Voltage: 4145 mV , 4.14 V
+Design Capacity: 2200 mAh
+State Of Charge: 100 %
+Nominal Available Capacity: 1000 mAh
+Nominal Available Capacity: 1000 mAh
+Remaining Capacity: 1000 mAh
+FullCharge Capacity: 1000 mAh
+Average Current: 0 mA
+Time To Empty: -1 Minute/(s)
+Time To Full: -1 Minute/(s)
+Standby Current: -1 mA
+Standby Time To Empty: -5536 Minute/(s)
+Max Load Current: -1219 mA
+Max Load Time To Empty: 49 mA
+Available Energy: 3792 mWh
+Average Power: 0 mW
+Time To Empty At Constant Power: -1 Minute/(s)
+Cycle Count: 1 Time/(s)
+```
+
+
 ## Project History
-* 25/12/2020 -> Started the project and protocol reverse engineering
+* 25/12/2020 -> Started the project and protocol reverse engineering ( DOne ).
 *
 *
