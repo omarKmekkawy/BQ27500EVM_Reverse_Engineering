@@ -123,7 +123,7 @@ void loop() {
   Serial.println(" mAh");
 
   // Full Available Capacity
-  Serial.print("Nominal Available Capacity: ");
+  Serial.print("Full Available Capacity: ");
   Serial.print(ReadInt(0x0E));
   Serial.println(" mAh");
 
@@ -170,7 +170,7 @@ void loop() {
   // Max Load Time To Empty
   Serial.print("Max Load Time To Empty: ");
   Serial.print(ReadInt(0x20));
-  Serial.println(" mA");
+  Serial.println(" Minute/(s)");
 
   // Available Energy
   Serial.print("Available Energy: ");
