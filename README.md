@@ -41,7 +41,8 @@ I²C Frequency: 40KHz
 Technology Evaluation Module.
 * [sluu298.pdf](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Datasheets/sluu298.pdf) Quick Start Guide for bq27500/1EVM Kit.
 
-After Reading the Datasheet and verifying it with the captured data, I have written a code for NodeMCU ( Just for concept verification ) and this is the final setup:
+## Connecting the BQ27500EVM with the microcontroller
+After Reading the Datasheet and verifying it with the captured data in the section above, I have written a code for NodeMCU ( Just for concept verification only ) and this is the final setup:
 ![alt text](https://github.com/rxtxinv/BQ27500EVM_Reverse_Engineering/blob/main/Pictures/NodeMCU%20Actual%20Setup.jpg)
 
 Connection:
